@@ -1,13 +1,10 @@
 ﻿using BenchmarkDotNet.Attributes;
-using System.Linq;
 using System.Text;
 
 namespace Benchmarks
 {
     public class IfElseBenchmark
     {
-        private const int TOTAL_LIST_COUNT = 10000;
-
         [Benchmark]
         public bool IfOnly()
         {

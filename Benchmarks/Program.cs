@@ -9,7 +9,7 @@ namespace Benchmarks
         {
             Console.WriteLine("Hello World!");
 
-            BenchmarkRunner.Run<IfElseBenchmark>();
+            BenchmarkRunner.Run<GetOrdinalVsGetStringDataBase>();
         }
     }
 }
